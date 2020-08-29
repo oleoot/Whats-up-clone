@@ -51,3 +51,9 @@
     font-size: 24px !important;
     color: #adadad;
 }
+
+.sidebar__chats {
+    flex: 1;
+    background-color: #fff;
+    overflow-y: scroll;
+}
