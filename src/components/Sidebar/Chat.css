@@ -45,6 +45,11 @@
     font-size: xx-small;
 }
 
+.chat__reciever {
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+
 .chat__timestamp {
     margin-left: 10px;
     font-size: xx-small;
@@ -63,4 +68,33 @@
     background-position: center;
     padding: 30px;
     overflow-y: scroll;
+}
+
+.chat__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+
+.chat__footer form {
+    flex: 1;
+    display: flex;
+}
+
+.chat__footer input {
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+
+.chat__footer button {
+    display: none;
+}
+
+.chat__footer .MuiSvgIcon-root {
+    margin: 10px;
+    color: gray;
 }
